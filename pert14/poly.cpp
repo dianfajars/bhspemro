@@ -17,7 +17,7 @@ class Segitiga: public Bidang
     Segitiga( int a=0, int b=0):Bidang(a, b) { }
     virtual void luas ()
     { cout << "Luas Segitiga : "
-           << (lebar * tinggi) << endl;
+        << (lebar * tinggi) << endl;
     }
 };
 class Segiempat: public Bidang
